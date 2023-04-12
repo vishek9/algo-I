@@ -1,0 +1,23 @@
+package vishek;
+
+public class student{
+int id;
+String name;
+public student() {
+	id=3;
+	name="xyz";
+			
+}
+public student( int c,String x) {
+	id=c;
+	name=x;
+			
+}
+public static void main(String[] args) {
+	student s1 = new student(22,"sty");
+	student s2 = new student();
+	System.out.println(s1.id );
+	System.out.println(s2.id);
+			
+}
+}
